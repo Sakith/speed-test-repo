@@ -36,28 +36,5 @@
 
         </plugins>
     </build>
-    <dependencies>
-        <!-- Kinesis dependencies -->
-        <!--<dependency>-->
-            <!--<groupId>com.amazonaws</groupId>-->
-            <!--<artifactId>amazon-kinesis-producer</artifactId>-->
-            <!--<version>0.10.2</version>-->
-        <!--</dependency>-->
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk</artifactId>
-            <version>1.10.67</version>
-        </dependency>
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk-core</artifactId>
-            <version>1.10.67</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sysco.speed.architecture.service</groupId>
-            <artifactId>speed-adapter-commons</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
 </project>

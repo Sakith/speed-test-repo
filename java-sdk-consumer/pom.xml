@@ -39,16 +39,4 @@
             </plugin>
         </plugins>
     </build>
-    <dependencies>
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>amazon-kinesis-client</artifactId>
-            <version>1.7.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sysco.speed.architecture.service</groupId>
-            <artifactId>speed-adapter-commons</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 </project>
