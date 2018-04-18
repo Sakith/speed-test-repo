@@ -18,7 +18,10 @@
         <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
         <archetype.encoding>${encoding}</archetype.encoding>
         <project.scm.id>git-repository</project.scm.id>
-    </properties>https://github.com/Sakith/speed-test-repo.git</connection>
+    </properties>
+
+    <scm>
+        <connection>https://github.com/Sakith/speed-test-repo.git</connection>
         <developerConnection>scm:git:[fetch=]https://github.com/Sakith/speed-test-repo.git[push=]https://github.com/Sakith/speed-test-repo.git</developerConnection>
         <url>https://github.com/Sakith/speed-test-repo.git</url>
         <tag>${project.version}</tag>
