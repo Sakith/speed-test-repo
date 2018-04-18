@@ -25,16 +25,16 @@
     </scm>
 
     <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>syscobt-releases</name>
-            <url>https://syscobt.jfrog.io/syscobt/mvn-local</url>
-        </repository>
         <snapshotRepository>
             <id>snapshots</id>
-            <name>syscobt-snapshots</name>
-            <url>https://syscobt.jfrog.io/syscobt/mvn-local</url>
+            <name>sakithsyscolabstest-snapshots</name>
+            <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-snapshot-local</url>
         </snapshotRepository>
+        <repository>
+            <id>central</id>
+            <name>sakithsyscolabstest-releases</name>
+            <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release-local</url>
+        </repository>
     </distributionManagement>
 
     <modules>
