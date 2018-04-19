@@ -5,7 +5,7 @@
     <groupId>com.sysco.speed.architecture.service</groupId>
     <artifactId>java-sdk</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1-RC1</version>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -22,7 +22,7 @@
         <connection>https://github.com/Sakith/speed-test-repo.git</connection>
         <developerConnection>scm:git:[fetch=]https://github.com/Sakith/speed-test-repo.git[push=]https://github.com/Sakith/speed-test-repo.git</developerConnection>
         <url>https://github.com/Sakith/speed-test-repo.git</url>
-        <tag>${project.version}</tag>
+        <tag>java-sdk-1.0.1-RC1</tag>
     </scm>
 
 <distributionManagement>
