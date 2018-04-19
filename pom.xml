@@ -25,7 +25,7 @@
         <tag>${project.version}</tag>
     </scm>
 
-    <distributionManagement>
+<distributionManagement>
     <repository>
         <id>central</id>
         <name>sakithsyscolabstest-releases</name>
