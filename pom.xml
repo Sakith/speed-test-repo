@@ -29,7 +29,7 @@
         <snapshotRepository>
             <id>snapshots</id>
             <name>sakithsyscolabstest-snapshots</name>
-            <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-snapshot-local</url>
+            <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release-local</url>
         </snapshotRepository>
         <repository>
             <id>central</id>
