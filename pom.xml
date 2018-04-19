@@ -26,17 +26,17 @@
     </scm>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>sakithsyscolabstest-snapshots</name>
-            <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release-local</url>
-        </snapshotRepository>
-        <repository>
-            <id>central</id>
-            <name>sakithsyscolabstest-releases</name>
-            <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/libs-release-local</url>
-        </repository>
-    </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>sakithsyscolabstest-releases</name>
+        <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/mvn-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>sakithsyscolabstest-snapshots</name>
+        <url>https://sakithsyscolabstest.jfrog.io/sakithsyscolabstest/mvn-local</url>
+    </snapshotRepository>
+</distributionManagement>
 
     <modules>
         <module>java-sdk-producer</module>
